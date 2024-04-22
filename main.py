@@ -11,9 +11,9 @@ def cky(G,string):
             else:
                 for k in range(i+1, j):
                     for key in G:
-                        for rule in G[key]:
-                            if len(rule) == 2:
-                                if rule[0] in table[k][i] and rule[1] in table[j][k]:
+                        for prod in G[key]:
+                            if len(prod) == 2:
+                                if prod[0] in table[k][i] and prod[1] in table[j][k]:
                                     table[j][i].append(key)
     return 'S' in table[n-1][0]
 
@@ -41,4 +41,5 @@ def main():
                 print('no')
             i += 1
 
-main()
+if __name__ == '__main__':
+    main()
