@@ -13,5 +13,5 @@ ST0270 Formal Languages and Compilers Assignment 2
 
 ## Detailed instructions for execution:
 1. Execute the main.py file.
-2. Copy and paste the test cases into the console or writhe them manually. Be aware to enter the correct number of cases.
+2. Copy and paste the test cases into the console or write them manually. Be aware to enter the correct number of cases.
 3. After pressing enter the program will run and write the outputs in console.
